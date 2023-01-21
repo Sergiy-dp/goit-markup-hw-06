@@ -526,6 +526,8 @@ margin-bottom: 16px;
   border-radius: 4px;
   background-color: transparent;
   padding: 8px 16px;
+  transition: border-color var(--transition-dur-and-cubic)
+  
   }
 .footer-form-input::placeholder {
 font-family: 'Roboto';
@@ -537,6 +539,7 @@ margin-left: 16px;
 align-items: center;
 letter-spacing: 0.04em;
 color: rgba(255, 255, 255, 0.6);
+
 }
 .footer-form-input:focus{
     outline: none;
@@ -563,6 +566,8 @@ color: #E7E9FC;
   border-color: transparent;
   padding: 8px 24px;
   cursor: pointer;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-icon-button {
   fill: #ffffff;
